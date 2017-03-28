@@ -1,1 +1,1 @@
-console.log('Hello from first commit')
+console.log('Hello from second commit')
