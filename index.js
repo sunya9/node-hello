@@ -1,1 +1,4 @@
-console.log('Hello from second commit')
+const Koa = require('koa')
+const app = new Koa()
+app.use(ctx => ctx.body = 'Hello world!')
+app.listen(3333)
