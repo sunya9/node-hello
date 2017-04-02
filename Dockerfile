@@ -10,4 +10,6 @@ RUN npm set progress=false && npm install
 
 COPY . /usr/src/app
 
+EXPOSE 3333
+
 CMD ["npm", "start"]
