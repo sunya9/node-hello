@@ -5,7 +5,11 @@ node_js:
 
 deploy:
   provider: script
+<<<<<<< HEAD
   script: npm run deploy
+=======
+  script: deploy.sh
+>>>>>>> origin/master
   on:
     branches:
       - deploy
