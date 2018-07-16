@@ -5,12 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node .",
-<<<<<<< HEAD
     "test": "exit 0",
     "deploy": "bash ./deploy.sh"
-=======
-    "test": "exit 0"
->>>>>>> origin/master
   },
   "dependencies": {
     "koa": "^2.2.0"
